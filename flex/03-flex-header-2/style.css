@@ -13,6 +13,19 @@ body {
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   display: flex;
+  justify-content: space-between;
+}
+
+.left-header {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.right-header {
+  display: flex;
+  gap: 16px;
+  align-items: center;
 }
 
 .profile-image {
@@ -21,6 +34,8 @@ body {
   border-radius: 50%;
   width: 48px;
   height: 48px;
+  margin: 8px;
+  margin-left: 0px;
 }
 
 .logo {
@@ -28,6 +43,8 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  margin: 8px;
+  margin-right: 0px;
 }
 
 button {
@@ -46,5 +63,7 @@ a {
 
 ul {
   display: flex;
+  gap: 16px;
   list-style-type: none;
+  padding-left: 0px;
 }
