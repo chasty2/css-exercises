@@ -31,10 +31,6 @@ input {
   margin-bottom: 16px;
 }
 
-.content {
-  border-style: dashed;
-}
-
 .input,
 .buttons {
   text-align: center;
