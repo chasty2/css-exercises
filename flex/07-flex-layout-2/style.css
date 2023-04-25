@@ -51,6 +51,7 @@ ul {
   padding: 0;
   list-style: none;
 }
+
 /*solution*/
 li {
   padding-bottom: 16px;
@@ -62,8 +63,19 @@ a {
   text-decoration: none;
 }
 
+/*solution*/
+.cards {
+  padding: 32px;
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  /*solution*/
+  width: 300px;
+  padding: 16px;
 }
